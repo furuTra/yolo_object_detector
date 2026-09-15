@@ -1,0 +1,31 @@
+{
+  "name": "yolo_object_detector",
+  "version": "0.1.0",
+  "description": "JPEG画像を渡すとM5Stack Module LLM(YOLO)で推論し、検出物体の座標列(class/confidence/[x1,y1,x2,y2])を返す移植可能パッケージ。カメラ/LCDには依存せず、Module LLMを接続したM5Stack製品へフォルダごとコピーして再利用できる。",
+  "keywords": [
+    "yolo",
+    "object-detection",
+    "m5stack",
+    "module-llm",
+    "stackflow"
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": [
+    {
+      "owner": "m5stack",
+      "name": "M5Module-LLM",
+      "version": "^1.7.0"
+    },
+    {
+      "owner": "bblanchon",
+      "name": "ArduinoJson",
+      "version": "^7.4.3"
+    },
+    {
+      "owner": "m5stack",
+      "name": "M5Unified",
+      "version": "^0.2.21"
+    }
+  ]
+}
